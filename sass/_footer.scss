@@ -1,0 +1,54 @@
+footer{
+    background-color: #285E67;
+    padding: 78px 0;
+    .container{
+        max-width: 80%;
+    }
+}
+.f_tepa{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+    ul{
+        display: flex;
+        gap: 40px;
+    }
+    a{
+        color: white;
+    }
+}
+footer{
+    .logo{
+        h1{
+            color: white
+        }
+    }
+}
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+@media screen and (max-width:1080px){
+    .f_tepa{
+        flex-direction: column;
+        gap: 36px;
+    }
+}
+@media screen and (max-width:850px){
+    footer{
+        .container{
+            max-width: 43%;
+        }
+    }
+    .f_tepa{
+        ul{
+            flex-wrap: wrap;
+        }
+    }
+    .social{
+        img{
+            min-width: 24px;
+        }
+    }
+}

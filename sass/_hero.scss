@@ -1,0 +1,74 @@
+.hero{
+    padding: 112px 0;
+}
+.geroy{
+    display: grid;
+    gap: 56px;
+    text-align: center;
+}
+.h_tepa{
+    h2{
+        font-size: 65.34px;
+        font-weight: 600;
+        color: #2A2A2A;
+        margin: 0 auto;
+        margin-bottom: 12px;
+        max-width: 100%;
+        line-height: 82px
+    }
+    p{
+        color: #2B2B2B;
+        font-weight: 400;
+        font-size: $font_primary;
+        margin: 0 auto;
+        margin-bottom: 33px;
+        max-width: 100%;
+        line-height: 24px
+    }
+    button{
+        background-color: #285E67;
+        padding: 12px 70px;
+    }
+}
+.h_pas{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+@media screen and (max-width:1080px) {
+    .hero{
+        padding-top: 28px;
+        padding-bottom: 80px;
+    }
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .h_tepa{
+        p{
+            max-width: 630px;
+        }
+    }
+    .h_pas{
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .hero{
+        padding: 36px 0;
+    }
+    .h_tepa{
+        h2{
+            font-weight: 600;
+            line-height: 47px;
+            font-size: 38.9px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
+    .h_pas{
+        flex-direction: column;
+    }
+}

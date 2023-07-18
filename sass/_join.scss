@@ -1,0 +1,105 @@
+.j_tepa{
+    background-image: url(../image/koprik.png);
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 0 30px;
+    padding-top: 110px;
+    padding-bottom: 228px;
+    img{
+        margin-bottom: 45px;
+    }
+    h2{
+        font-size: 37.9px;
+        font-weight: 600;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+    p{
+        font-weight: 400;
+        line-height: 24px;
+        max-width: 630px;
+        margin: 0 auto;
+        margin-bottom: 28px;
+    }
+    button{
+        padding: 12px 70px;
+        background: none;
+        border: 2px solid white;
+    }
+}
+.j_past{
+    background-color: #FCE2D7;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 119px 66px;
+    border-radius: 12px;
+    transform: translateY(-182px);
+}
+.j_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.j_card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-size: 21.33px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+.j_img{
+    border: 2.5px solid black;
+    padding: 12px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+@media screen and (max-width:1080px){
+    .j_past{
+        padding: 71px 66px;
+        max-width: 85%;
+    }
+    .j_cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 49px;
+        column-gap: 138px;
+    }
+    .j_img{
+        padding: 8.78px;
+        margin-bottom: 18px;
+    }
+}
+@media screen and (max-width:850px){
+    .j_tepa{
+        padding-top: 71.76px;
+        padding-bottom: 100px;
+        border-radius: 12px;
+        img{
+            margin-bottom: 13px;
+            max-width: 15%;
+        }
+        h2{
+            font-size: 21.33px;
+            line-height: 31px;
+            max-width: 180px;
+            margin: 0 auto;
+            margin-bottom: 13px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .j_past{
+        transform: translateY(-65px);
+    }
+}

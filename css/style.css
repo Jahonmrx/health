@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  font-size: 21.33px;
+  color: white;
+  border-radius: 67px;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1340px) {
+  .container {
+    max-width: 90%;
+  }
+}
+nav {
+  padding: 32px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+}
+.logo h1 {
+  font-size: 21.33px;
+  font-weight: 600;
+  color: #285E67;
+}
+
+.nav_right ul {
+  display: flex;
+  gap: 40px;
+}
+.nav_right a {
+  color: #2B2B2B;
+  font-weight: 400;
+  font-size: 16px;
+}
+.nav_right img {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 850px) {
+  nav {
+    padding: 28px 0;
+  }
+  .nav_right ul {
+    display: none;
+  }
+  .nav_right img {
+    display: flex;
+  }
+}
+.hero {
+  padding: 112px 0;
+}
+
+.geroy {
+  display: grid;
+  gap: 56px;
+  text-align: center;
+}
+
+.h_tepa h2 {
+  font-size: 65.34px;
+  font-weight: 600;
+  color: #2A2A2A;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  max-width: 100%;
+  line-height: 82px;
+}
+.h_tepa p {
+  color: #2B2B2B;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 33px;
+  max-width: 100%;
+  line-height: 24px;
+}
+.h_tepa button {
+  background-color: #285E67;
+  padding: 12px 70px;
+}
+
+.h_pas {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+@media screen and (max-width: 1080px) {
+  .hero {
+    padding-top: 28px;
+    padding-bottom: 80px;
+  }
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .h_tepa p {
+    max-width: 630px;
+  }
+  .h_pas {
+    gap: 28px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .hero {
+    padding: 36px 0;
+  }
+  .h_tepa h2 {
+    font-weight: 600;
+    line-height: 47px;
+    font-size: 38.9px;
+  }
+  .h_tepa p {
+    font-size: 17px;
+  }
+  .h_pas {
+    flex-direction: column;
+  }
+}
+.ussa {
+  background-color: #F4F4F4;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 112px;
+  align-items: end;
+  gap: 50px;
+}
+
+.w_left {
+  margin-top: 96px;
+  margin-bottom: 48px;
+  color: #2B2B2B;
+}
+.w_left h2 {
+  font-size: 50.52px;
+  font-weight: 600;
+  line-height: 62px;
+  margin-bottom: 61px;
+  line-height: 62px;
+}
+
+.w_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.w_card {
+  display: grid;
+  gap: 20px;
+}
+.w_card p {
+  max-width: 225px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+  .ussa {
+    justify-content: center;
+    padding: 64px 0;
+  }
+  .w_left {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .w_left h2 {
+    margin-bottom: 69px;
+  }
+  .w_right {
+    display: none;
+  }
+  .w_card {
+    text-align: center;
+  }
+  .w_card img {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 850px) {
+  .ussa {
+    text-align: center;
+  }
+  .w_left h2 {
+    font-size: 39.7px;
+    line-height: 53px;
+    max-width: 240px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .w_cards {
+    flex-direction: column;
+    gap: 26px;
+  }
+}
+.organic {
+  padding: 104px 0;
+}
+
+.tabiiy {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 50px;
+}
+
+.o_left img {
+  border-radius: 18px;
+  height: 100%;
+}
+
+.o_right {
+  color: #2B2B2B;
+}
+
+.o_yozuv {
+  margin-bottom: 50px;
+}
+.o_yozuv h2 {
+  font-size: 50.52px;
+  font-weight: 600;
+  line-height: 62px;
+  margin-bottom: 25px;
+}
+.o_yozuv p {
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 623px;
+}
+
+.o_card p:nth-child(3) {
+  display: none;
+}
+
+.o_cards {
+  display: grid;
+  gap: 50px;
+}
+
+.o_card {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.o_card p {
+  max-width: 530px;
+}
+
+@media screen and (max-width: 1080px) {
+  .tabiiy {
+    gap: 25px;
+  }
+  .o_yozuv {
+    margin-bottom: 80px;
+  }
+  .o_yozuv h2 {
+    margin-bottom: 10px;
+  }
+  .o_card p {
+    max-width: 355px;
+    color: #285E67;
+  }
+}
+@media screen and (max-width: 850px) {
+  .tabiiy {
+    flex-direction: column;
+  }
+  .o_yozuv {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .o_yozuv p {
+    font-size: 17px;
+  }
+  .o_card p:nth-child(2) {
+    display: none;
+  }
+  .o_card p:nth-child(3) {
+    display: flex;
+  }
+}
+.eat {
+  padding-bottom: 110px;
+}
+
+.ovqat {
+  background-color: #F4F4F4;
+  border-radius: 12px;
+  padding: 56px 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.e_right {
+  color: #2B2B2B;
+}
+.e_right h2 {
+  font-size: 50.52px;
+  font-weight: 600;
+  line-height: 62px;
+  margin-bottom: 65px;
+  line-height: 30px;
+}
+
+.e_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.e_card {
+  display: grid;
+  gap: 20px;
+}
+.e_card p {
+  max-width: 225px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+  .ovqat {
+    justify-content: center;
+    padding: 112px 0;
+  }
+  .e_left {
+    display: none;
+  }
+  .e_card {
+    text-align: center;
+  }
+  .e_card img {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 850px) {
+  .ovqat {
+    text-align: center;
+    padding: 64px 0;
+  }
+  .e_right h2 {
+    font-size: 39.7px;
+    line-height: 53px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .e_right p {
+    max-width: 285px;
+  }
+  .e_cards {
+    flex-direction: column;
+    gap: 41px;
+  }
+}
+.j_tepa {
+  background-image: url(../image/koprik.png);
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 0 30px;
+  padding-top: 110px;
+  padding-bottom: 228px;
+}
+.j_tepa img {
+  margin-bottom: 45px;
+}
+.j_tepa h2 {
+  font-size: 37.9px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+.j_tepa p {
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 630px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+.j_tepa button {
+  padding: 12px 70px;
+  background: none;
+  border: 2px solid white;
+}
+
+.j_past {
+  background-color: #FCE2D7;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 119px 66px;
+  border-radius: 12px;
+  transform: translateY(-182px);
+}
+
+.j_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.j_card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.j_card h2 {
+  font-size: 21.33px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.j_img {
+  border: 2.5px solid black;
+  padding: 12px;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 1080px) {
+  .j_past {
+    padding: 71px 66px;
+    max-width: 85%;
+  }
+  .j_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 49px;
+    column-gap: 138px;
+  }
+  .j_img {
+    padding: 8.78px;
+    margin-bottom: 18px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .j_tepa {
+    padding-top: 71.76px;
+    padding-bottom: 100px;
+    border-radius: 12px;
+  }
+  .j_tepa img {
+    margin-bottom: 13px;
+    max-width: 15%;
+  }
+  .j_tepa h2 {
+    font-size: 21.33px;
+    line-height: 31px;
+    max-width: 180px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+  }
+  .j_tepa p {
+    display: none;
+  }
+  .j_past {
+    transform: translateY(-65px);
+  }
+}
+footer {
+  background-color: #285E67;
+  padding: 78px 0;
+}
+footer .container {
+  max-width: 80%;
+}
+
+.f_tepa {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+.f_tepa ul {
+  display: flex;
+  gap: 40px;
+}
+.f_tepa a {
+  color: white;
+}
+
+footer .logo h1 {
+  color: white;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+@media screen and (max-width: 1080px) {
+  .f_tepa {
+    flex-direction: column;
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 850px) {
+  footer .container {
+    max-width: 43%;
+  }
+  .f_tepa ul {
+    flex-wrap: wrap;
+  }
+  .social img {
+    min-width: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
